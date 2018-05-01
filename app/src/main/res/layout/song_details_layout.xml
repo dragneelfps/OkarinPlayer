@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:columnCount="2">
+
+    <TextView
+        android:text="File Path"/>
+
+    <TextView
+        android:id="@+id/file_path"
+        android:text="TextView" />
+
+    <TextView
+        android:text="File Name"/>
+
+    <TextView
+        android:id="@+id/file_name"
+        android:text="TextView" />
+
+    <TextView
+        android:text="Size"/>
+
+    <TextView
+        android:id="@+id/file_size"
+        android:text="TextView" />
+
+    <TextView
+        android:text="Format"/>
+
+    <TextView
+        android:id="@+id/file_format"
+        android:text="TextView" />
+
+    <TextView
+        android:text="Duration"/>
+
+    <TextView
+        android:id="@+id/file_duration"
+        android:text="TextView" />
+</GridLayout>
